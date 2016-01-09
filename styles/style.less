@@ -450,9 +450,12 @@
 	.header {
 		width: 100%;
 		height: 60px;
+		position: fixed;
+		top: 0;
+		z-index: 10;
 	}
 	.header-body {
-		height: 75vh;
+		height: 100vh;
 
 		.header_block {
 		width: 80%;
@@ -484,11 +487,18 @@
 			}	
 		}	
 	}
+	.main .about, .main .services, 
+	.main .loockbook, .main .reservation, 
+	.main .map{
+		padding-top: 70px;
+		height: 100%;
+	}
 	.main .about .parent .block-1, 
 	.main .about .parent .block-2, 
 	.main .about .parent .block-3,
 	.main .services .prices .service{
 		width: 100%;
+		padding-top: 20px
 		}
 	.main {
 		.loockbook {
@@ -504,9 +514,13 @@
 	   		}
 		}
 	}
+	.main .services .prices .service .title_mobile {
+		width: 100%;
+	}
 	.main {
 		.reservation {			
 			.reserve {
+				height: 700px;
 				.lines, .text {
 					width: 100%;
 				}
@@ -607,9 +621,12 @@
 	.header {
 		width: 100%;
 		height: 60px;
+		position: fixed;
+		top: 0;
+		z-index: 10;
 	}
 	.header-body {
-		height: 75vh;
+		height: 100vh;
 
 		.header_block {
 		width: 80%;
@@ -641,17 +658,28 @@
 			}	
 		}
 	}
+	.main .services .prices .service .title_mobile {
+		width: 100%;
+	}
+	.main .about, .main .services, 
+	.main .loockbook, .main .reservation, 
+	.main .map {
+		padding-top: 70px;
+		height: 100%;
+	}
 	.main .about .parent .block-1, 
 	.main .about .parent .block-2, 
 	.main .about .parent .block-3,
 	.main .services .prices .service{
 		width: 100%;
 		display: block;
+		padding-top: 20px
 		}
 
 	.main {
 		.reservation {			
 			.reserve {
+				height: 700px;
 				.lines, .text {
 					width: 100%;
 				}
