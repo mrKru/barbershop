@@ -435,9 +435,12 @@
   .header {
     width: 100%;
     height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
   }
   .header-body {
-    height: 75vh;
+    height: 100vh;
   }
   .header-body .header_block {
     width: 80%;
@@ -466,11 +469,20 @@
     font-size: 2.3em;
     line-height: 1.7em;
   }
+  .main .about,
+  .main .services,
+  .main .loockbook,
+  .main .reservation,
+  .main .map {
+    padding-top: 70px;
+    height: 100%;
+  }
   .main .about .parent .block-1,
   .main .about .parent .block-2,
   .main .about .parent .block-3,
   .main .services .prices .service {
     width: 100%;
+    padding-top: 20px;
   }
   .main .loockbook #gallery .picture {
     display: block;
@@ -479,6 +491,12 @@
   }
   .main .loockbook #gallery .picture:hover {
     box-shadow: 0 0 30px;
+  }
+  .main .services .prices .service .title_mobile {
+    width: 100%;
+  }
+  .main .reservation .reserve {
+    height: 700px;
   }
   .main .reservation .reserve .lines,
   .main .reservation .reserve .text {
@@ -573,9 +591,12 @@
   .header {
     width: 100%;
     height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
   }
   .header-body {
-    height: 75vh;
+    height: 100vh;
   }
   .header-body .header_block {
     width: 80%;
@@ -604,12 +625,27 @@
     font-size: 4.3em;
     line-height: 1.7em;
   }
+  .main .services .prices .service .title_mobile {
+    width: 100%;
+  }
+  .main .about,
+  .main .services,
+  .main .loockbook,
+  .main .reservation,
+  .main .map {
+    padding-top: 70px;
+    height: 100%;
+  }
   .main .about .parent .block-1,
   .main .about .parent .block-2,
   .main .about .parent .block-3,
   .main .services .prices .service {
     width: 100%;
     display: block;
+    padding-top: 20px;
+  }
+  .main .reservation .reserve {
+    height: 700px;
   }
   .main .reservation .reserve .lines,
   .main .reservation .reserve .text {
